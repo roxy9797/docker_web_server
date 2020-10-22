@@ -23,5 +23,4 @@ jobs:
         echo $PASS
         docker build . --file Dockerfile --tag rushikesh424/github:latest
         docker login -u $USER -p $PASS
-        
         docker push rushikesh424/github:latest
